@@ -7,7 +7,8 @@ Built using http://middlemanapp.com/
 
 You are free to use this source code to build your own site
 
-[LICENSE.txt](LICENSE.txt)
+## LICENSE
+[MIT License](LICENSE.txt)
 
 ## Contributing
 
