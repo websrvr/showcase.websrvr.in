@@ -1,8 +1,20 @@
 ---
 - url: www.tarjeto.com
+  source: false
 - url: www.stephenoconnell.org
+  source: false
 - url: www.websrvr.in
+  source: true
+  github_url: https://github.com/websrvr/www.websrvr.in
 - url: showcase.websrvr.in
+  source: true
+  github_url: https://github.com/websrvr/showcase.websrvr.in
 - url: blog.websrvr.in
+  source: true
+  github_url: https://github.com/websrvr/blog.websrvr.in
 - url: docs.websrvr.in
+  source: true
+  github_url: https://github.com/websrvr/docs.websrvr.in
 - url: notes.minhajuddin.com
+  source: true
+  github_url: https://github.com/minhajuddin/notes.minhajuddin.com

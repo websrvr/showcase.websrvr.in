@@ -12,7 +12,12 @@ title: Sites built on websrvr.in
 
         <div class="caption text-center">
           <h3><%= w.url %></h3>
-          <p><a href="//<%= w.url %>" class="btn btn-primary" role="button">Check it out</a></p>
+          <p>
+            <a href="//<%= w.url %>" class="btn btn-primary" target='_blank' role="button">Browse to website</a>
+            <% if w.source %>
+            <a href="<%= w.github_url %>" class="btn btn-warning" target='_blank' role="button">Source Code</a>
+            <% end %>
+          </p>
         </div>
       </div>
 
