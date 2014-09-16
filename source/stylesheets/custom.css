@@ -1,0 +1,18 @@
+body{
+  padding-top: 40px;
+  background-image: url(/images/background.svg);
+}
+
+.page-content{
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+footer .container{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  color: #ddd;
+  padding-bottom: 10px;
+}
+footer .container a{
+  color: #fff;
+}

@@ -1,9 +1,8 @@
 ---
-websites:
-  www.tarjeto.com
-  www.stephenoconnell.org
-  www.websrvr.in
-  showcase.websrvr.in
-  blog.websrvr.in
-  docs.websrvr.in
-  notes.minhajuddin.com
+- url: www.tarjeto.com
+- url: www.stephenoconnell.org
+- url: www.websrvr.in
+- url: showcase.websrvr.in
+- url: blog.websrvr.in
+- url: docs.websrvr.in
+- url: notes.minhajuddin.com

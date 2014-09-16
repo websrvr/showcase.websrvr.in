@@ -1,10 +1,23 @@
 ---
-title: Welcome to Middleman
+title: Sites built on websrvr.in
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="websites">
+  <% data.websites.each_slice(2) do |ws| %>
+    <div class="row">
+    <% ws.each do |w| %>
+      <div class='col-md-6'>
+      <div class='thumbnail'>
+        <img src='/images/screenshots/<%= w.url %>.png' />
+
+        <div class="caption text-center">
+          <h3><%= w.url %></h3>
+          <p><a href="//<%= w.url %>" class="btn btn-primary" role="button">Check it out</a></p>
+        </div>
+      </div>
+
+    </div>
+  <%end%>
+  </div>
+<%end%>
+</div>
