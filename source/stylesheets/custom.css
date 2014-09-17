@@ -1,7 +1,11 @@
 body{
-  padding-top: 40px;
-  background-image: url(/images/background.svg);
+  background: -webkit-linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%); /* W3C */
 }
+
 
 .page-content{
   padding-top: 20px;
