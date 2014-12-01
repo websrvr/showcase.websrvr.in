@@ -15,6 +15,9 @@
 - url: docs.websrvr.in
   source: true
   github_url: https://github.com/websrvr/docs.websrvr.in
+- url: code.websrvr.in
+  source: true
+  github_url: https://github.com/minhajuddin/notes.minhajuddin.com
 - url: notes.minhajuddin.com
   source: true
   github_url: https://github.com/minhajuddin/notes.minhajuddin.com
